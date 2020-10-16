@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.back {
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(68, 190, 68, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+    height: 110vh;
+    width: 100%;
+}
+
+label {
+    color: black;
+}
+
+.borders {
+    display: flex;
+    align-items: center;
+    margin: 88px auto;
+    /* padding-left: 25%; */
+}
+
+button {
+    width: 100%;
+}
+
+span {
+    color: #df3349;
+}
+
+form {
+    padding: 49px 30px;
+    background-color: #f2dfe3;
+    border-radius: 10px;
+    position: relative;
+}
+
+p {
+    font-size: 30px;
+    word-break: normal;
+    color: black;
+    margin-bottom: 35px;
+}
+
+p::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: black;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: 7px;
+}
+
+button {
+    height: 35px;
+    border-radius: 2px;
+    color: white;
+    background-color: #df3349!important;
+    outline: none!important;
+    border: none!important;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: #df2f46!important;
+    outline: none!important;
+    border: none!important;
+}
+
+.fa-question-circle {
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    font-size: 30px!important;
+    color: black!important;
+}
+
+aside {
+    float: right;
+    top: 0px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    height: 110vh;
+    background-color: white;
+    /* width: 9%; */
+}
+
+h6 {
+    color: rgba(0, 0, 0, .4);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: rgba(0, 0, 0, .9)!important;
+}
+
+@media only screen and (min-width: 1024px) and (max-width:1440px) {
+    .back {
+        background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(68, 190, 68, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+        height: 110vh;
+        width: 100%;
+    }
+    .borders {
+        display: flex;
+        align-items: center;
+        margin: 88px auto;
+        padding-left: 25%;
+    }
+    aside {
+        float: right;
+        top: 0px;
+        position: absolute;
+        right: 0px;
+        text-align: center;
+        height: 110vh!important;
+        background-color: white;
+        width: 9%;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width:602px) {
+    .back {
+        background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(68, 190, 68, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+        height: 110vh;
+        width: 100%;
+    }
+    .borders {
+        display: flex;
+        align-items: center;
+        margin: 88px auto;
+    }
+    aside {
+        display: none;
+    }
+}
+@media only screen and (min-width: 409px) and (max-width:926px) {
+    .back {
+        background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(68, 190, 68, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
+        height: 110vh;
+        width: 100%;
+    }
+    .borders {
+        display: flex;
+        align-items: center;
+        margin: 88px auto;
+    }
+    aside {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:375px) {
+    p {
+        font-size: 16px!important;
+        word-break: normal;
+    }
+    aside {
+        display: none;
+    }
+}
+
+@media only screen and(max-width:529px) {
+    aside {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    p {
+        font-size: 20px!important;
+        word-break: normal;
+    }
+}
